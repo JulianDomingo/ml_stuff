@@ -18,3 +18,6 @@
 
 ### Can't open jupyter notebook from GCP instance
 * gcloud compute ssh 'cv' --project='cs231n-230103' --zone='us-west1-b' --ssh-flag='-L' --ssh-flag='2222:localhost:8888'
+
+### Anaconda install on GCE instance
+* wget http://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
