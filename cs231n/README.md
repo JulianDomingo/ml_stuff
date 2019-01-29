@@ -21,3 +21,6 @@
 
 ### Anaconda install on GCE instance
 * wget http://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
+
+### Jupyter Notebook Useful Shortcuts / Tricks
+https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/
