@@ -61,6 +61,11 @@
                 * More natural for ambiguous vectors
         * Applicable to many areas
             * NLP: distance between paragraphs / sentences
+    * Problems
+        * Prone to Curse of dimensionality
+            * As number of dimensions increase, number of training samples / points needed to
+                densely cover the space / accurately grows exponentially w.r.t. to the # of
+                dimensions (similar to combinatorial problems)
 
 #### Hyperparameters
 * Things like the value of **k** or **L1 vs L2** in KNN is an example of a hyperparameter
@@ -85,3 +90,4 @@
         data seen "in the wild."
         * Cases where above isn't true is a data set curator / creation issue
             * Good way to avoid this is by randomly partitioning data
+    * **Good to make plots for CV accuracy as hyperparameter ranges vary**
